@@ -1,17 +1,13 @@
 package main
 
 import (
-	"github.com/spf13/cobra"
+	inner "github.com/linuxsuren/jcli-ks-plugin/cmd"
+	"os"
 )
 
-func main()  {
-	cmd := &cobra.Command{
-		Use: "github-go",
-		Run: func(cmd *cobra.Command, args []string) {
-			cmd.Println("hello")
-		},
-	}
+func main() {
+	cmd := inner.NewKSPlugin()
 	if err := cmd.Execute(); err != nil {
-		panic(err)
+		os.Exit(1)
 	}
 }

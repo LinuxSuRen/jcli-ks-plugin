@@ -1,6 +1,6 @@
 repository:
-  name: github-go
-  description: This is a template project
+  name: jcli-ks-plugin
+  description: This is a KubeSphere plugin for Jenkins CLI
   homepage: https://github.com/linuxsuren
   private: false
   has_issues: true
