@@ -4,8 +4,8 @@ go 1.15
 
 require (
 	github.com/ghodss/yaml v1.0.0
-	github.com/linuxsuren/ks v0.0.26
-	github.com/spf13/cobra v1.1.1
+	github.com/linuxsuren/ks v0.0.27
+	github.com/spf13/cobra v1.1.3
 	k8s.io/apimachinery v0.20.4
 	k8s.io/client-go v0.19.4
 )
