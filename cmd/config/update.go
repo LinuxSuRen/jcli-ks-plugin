@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/ghodss/yaml"
+	"github.com/linuxsuren/jcli-ks-plugin/cmd/common"
 	kstypes "github.com/linuxsuren/ks/kubectl-plugin/types"
 	"github.com/spf13/cobra"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -81,6 +82,6 @@ func (o *updateOption) preRunE(_ *cobra.Command, args []string) (err error) {
 }
 
 func (o *updateOption) runE(_ *cobra.Command, args []string) (err error) {
-	err = execCommand("jcli", "config", "update", "--token", o.token, o.name)
+	err = common.ExecCommand("jcli", "config", "update", "--token", o.token, o.name)
 	return
 }

@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"github.com/linuxsuren/jcli-ks-plugin/cmd/config"
+	"github.com/linuxsuren/jcli-ks-plugin/cmd/pipeline"
 	"github.com/spf13/cobra"
 )
 
@@ -12,6 +13,6 @@ func NewKSPlugin() (cmd *cobra.Command) {
 		Short: "jcli plugin for KubeSphere",
 	}
 
-	cmd.AddCommand(config.NewConfigCmd())
+	cmd.AddCommand(config.NewConfigCmd(), pipeline.NewPipelineRootCommand())
 	return
 }
