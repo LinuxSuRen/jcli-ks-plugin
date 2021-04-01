@@ -7,6 +7,7 @@ import (
 	"sync"
 )
 
+// ExecCommand exec command
 func ExecCommand(name string, arg ...string) (err error) {
 	command := exec.Command(name, arg...)
 

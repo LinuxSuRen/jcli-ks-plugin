@@ -1,6 +1,3 @@
-/**
- * These code lines should be moved into github.com/jenkins-zh/jenkins-cli at sometime
- */
 package pipeline
 
 import (
@@ -14,6 +11,10 @@ import (
 
 	appCfg "github.com/jenkins-zh/jenkins-cli/app/config"
 )
+
+/**
+ * These code lines should be moved into github.com/jenkins-zh/jenkins-cli at sometime
+ */
 
 var config *appCfg.Config
 
