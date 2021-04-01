@@ -1,4 +1,4 @@
-package config
+package common
 
 import (
 	"io"
@@ -7,7 +7,8 @@ import (
 	"sync"
 )
 
-func execCommand(name string, arg ...string) (err error) {
+// ExecCommand exec command
+func ExecCommand(name string, arg ...string) (err error) {
 	command := exec.Command(name, arg...)
 
 	//var stdout []byte

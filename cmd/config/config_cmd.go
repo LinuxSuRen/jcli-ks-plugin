@@ -2,6 +2,7 @@ package config
 
 import "github.com/spf13/cobra"
 
+// NewConfigCmd creates config command
 func NewConfigCmd() (cmd *cobra.Command) {
 	cmd = &cobra.Command{
 		Use:   "config",
