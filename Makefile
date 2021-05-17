@@ -23,5 +23,6 @@ fmt:
 	go fmt ./...
 
 copy: build
+	mkdir -p ~/.jcli-plugins/plugins-repo
 	cp bin/$(BUILD_GOOS)/$(NAME) ~/.jcli-plugins/plugins-repo/$(NAME)
 
