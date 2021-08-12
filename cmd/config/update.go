@@ -52,11 +52,10 @@ func (o *updateOption) preRunE(_ *cobra.Command, args []string) (err error) {
 	var client dynamic.Interface
 
 	if config, err = clientcmd.BuildConfigFromFlags("", kubeconfig); err != nil {
-		fmt.Println(err)
-	} else {
-		if client, err = dynamic.NewForConfig(config); err != nil {
-			return
-		}
+		return
+	}
+	if client, err = dynamic.NewForConfig(config); err != nil {
+		return
 	}
 
 	ctx := context.TODO()
@@ -73,10 +72,12 @@ func (o *updateOption) preRunE(_ *cobra.Command, args []string) (err error) {
 		} else {
 			err = fmt.Errorf("unable to parse KubeSphere config from configmap, error: %v", err)
 		}
-	}
 
-	if o.token == "" {
-		err = fmt.Errorf("unable to get Jenkins token from KubeSphere, please check if it was enabled")
+		if o.token == "" {
+			err = fmt.Errorf("unable to get Jenkins token from KubeSphere, please check if it was enabled")
+		}
+	} else {
+		err = fmt.Errorf("failed to get ConfigMap kubesphere-config from kubesphere-system, error: %v", err)
 	}
 	return
 }
