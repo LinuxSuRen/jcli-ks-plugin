@@ -278,10 +278,10 @@ github.com/linuxsuren/http-downloader v0.0.2-0.20201207132639-19888a6beaec/go.mo
 github.com/linuxsuren/http-downloader v0.0.6/go.mod h1:xxgh2OE7WGL9TwDE9L8Gh7Lqq9fFPuHbh5tofUitEfE=
 github.com/linuxsuren/http-downloader v0.0.10/go.mod h1:4hVRWYnIifme60jM0gCoEzglPdjUt7fBwXRwYs/rwwE=
 github.com/linuxsuren/http-downloader v0.0.22/go.mod h1:qeevaR7rbr047PLAfa1+TwgA3I2cOuGcIhFLOJjwlL8=
-github.com/linuxsuren/http-downloader v0.0.27 h1:7lgM6mLldWO8xMeycU9zwYaj+snbTNlG2YD5VGqlLpA=
-github.com/linuxsuren/http-downloader v0.0.27/go.mod h1:bniEqpLyyydtCTDyjo3nco6LD2F90ruPH87fuqAznQg=
-github.com/linuxsuren/ks v0.0.34 h1:9zZ1Ex1l1Bu2LGgDIB6sTdU/DlV9Bf2mBLfFt9fktAo=
-github.com/linuxsuren/ks v0.0.34/go.mod h1:qy+kTaBYwE6asPDpo0UAd8N+Gh+CKsCsFnpQiw9QJfo=
+github.com/linuxsuren/http-downloader v0.0.29 h1:GJUoybR4SViarPfX2xipq0unUssiuB9qrSSoDDW1jao=
+github.com/linuxsuren/http-downloader v0.0.29/go.mod h1:bniEqpLyyydtCTDyjo3nco6LD2F90ruPH87fuqAznQg=
+github.com/linuxsuren/ks v0.0.37 h1:C2AcROmLysvs71yWmmE2tyMZLGzePTDqwnky5enw9bA=
+github.com/linuxsuren/ks v0.0.37/go.mod h1:uTiwgIMpj9yOOUD1WtAyxwXC5vlVSe9X8gZ9Dn8pseU=
 github.com/magiconair/properties v1.8.0/go.mod h1:PppfXfuXeibc/6YijjN8zIbojt8czPbwD3XqdrwzmxQ=
 github.com/magiconair/properties v1.8.1/go.mod h1:PppfXfuXeibc/6YijjN8zIbojt8czPbwD3XqdrwzmxQ=
 github.com/magiconair/properties v1.8.4/go.mod h1:y3VJvCyxH9uVvJTWEGAELF3aiYNyPKd5NZ3oSwXrF60=
