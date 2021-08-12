@@ -53,10 +53,9 @@ func (o *updateOption) preRunE(_ *cobra.Command, args []string) (err error) {
 
 	if config, err = clientcmd.BuildConfigFromFlags("", kubeconfig); err != nil {
 		return
-	} else {
-		if client, err = dynamic.NewForConfig(config); err != nil {
-			return
-		}
+	}
+	if client, err = dynamic.NewForConfig(config); err != nil {
+		return
 	}
 
 	ctx := context.TODO()
