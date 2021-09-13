@@ -3,7 +3,7 @@ module github.com/linuxsuren/jcli-ks-plugin
 go 1.15
 
 require (
-	github.com/AlecAivazis/survey/v2 v2.2.16
+	github.com/AlecAivazis/survey/v2 v2.3.2
 	github.com/ghodss/yaml v1.0.0
 	github.com/jenkins-zh/jenkins-cli v0.0.37-0.20210331140915-f101c983193d
 	github.com/linuxsuren/ks v0.0.37
