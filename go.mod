@@ -8,7 +8,7 @@ require (
 	github.com/jenkins-zh/jenkins-cli v0.0.37-0.20210331140915-f101c983193d
 	github.com/linuxsuren/ks v0.0.37
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/spf13/cobra v1.2.1
+	github.com/spf13/cobra v1.3.0
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/apimachinery v0.20.4
 	k8s.io/client-go v0.19.4
